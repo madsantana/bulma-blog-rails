@@ -1,24 +1,25 @@
-# README
+# bulma-blog-rails
+Criando um blog do zero em alguns minutos usando Rails e Bulma... link do tutorial: https://onebitcode.com/rails-bulma-criando-um-blog-do-zero-em-poucos-minutos/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+First Steps:
 
-Things you may want to cover:
+After clonning this repositorie, on bulma-blog-rails folder, do:
 
-* Ruby version
+#Ruby 2.5.1
+rvm install 2.5.1
 
-* System dependencies
+#Gems 
+bundle install
 
-* Configuration
+#Install action_text
+rails action_text:install
 
-* Database creation
+#Migrate DB
+rails db:migrate
 
-* Database initialization
+#Run
+rails s
 
-* How to run the test suite
+#Access Blog on:
+http://localhost:3000
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
